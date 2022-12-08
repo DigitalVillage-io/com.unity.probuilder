@@ -25,7 +25,7 @@ namespace UnityEngine.ProBuilder.Csg
     /// Base class for CSG operations. Contains GameObject level methods for Subtraction, Intersection, and Union
     /// operations. The GameObjects passed to these functions will not be modified.
     /// </summary>
-    static class CSG
+    public static class CSG
     {
         public enum BooleanOp
         {
