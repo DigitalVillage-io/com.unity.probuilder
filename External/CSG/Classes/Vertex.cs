@@ -7,7 +7,7 @@ namespace UnityEngine.ProBuilder.Csg
     /// Holds information about a single vertex, and provides methods for averaging between many.
     /// <remarks>All values are optional. Where not present a default value will be substituted if necessary.</remarks>
     /// </summary>
-    struct Vertex
+    public struct Vertex
     {
         Vector3 m_Position;
         Color m_Color;

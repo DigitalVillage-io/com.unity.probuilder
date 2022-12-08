@@ -4,7 +4,7 @@ namespace UnityEngine.ProBuilder.Csg
     /// Mesh attributes bitmask.
     /// </summary>
     [System.Flags]
-    enum VertexAttributes
+    public enum VertexAttributes
     {
         /// <summary>
         /// Vertex positions.
